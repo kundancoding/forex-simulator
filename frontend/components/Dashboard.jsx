@@ -1,15 +1,12 @@
-import React from 'react';
-import CurrencyConverter from './CurrencyConverter';
-import PortfolioViewer from './PortfolioViewer';
-import AlgoUpload from './AlgoUpload';
+import React from 'react'
 
-const Dashboard = () => (
-  <div className="space-y-4">
-    <h1 className="text-2xl font-bold">Forex Simulator</h1>
-    <CurrencyConverter />
-    <PortfolioViewer />
-    <AlgoUpload />
-  </div>
-);
+function Dashboard() {
+  return (
+    <div>
+      <h1>Forex Trading Dashboard</h1>
+      <p>Portfolio and market info here.</p>
+    </div>
+  )
+}
 
 export default Dashboard;
